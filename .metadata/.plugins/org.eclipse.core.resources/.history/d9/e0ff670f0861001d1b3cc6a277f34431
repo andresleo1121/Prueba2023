@@ -1,0 +1,34 @@
+package steps;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class SearchSteps {
+	
+	@Given("the user is in the index page")
+	public void theUserIsInIndexPage()
+	{
+		
+	}
+	
+	@When("the user enters dresses in the search bar")
+	public void userEnterDressesInSearchBar()
+	{
+		
+	}
+	
+	@And("the user clicks the search bar")
+	public void userClicksSearchButton()
+	{
+		
+	}
+	
+	@Then("the dresses page appears")
+	public void dressesPage()
+	{
+		
+	}
+
+}

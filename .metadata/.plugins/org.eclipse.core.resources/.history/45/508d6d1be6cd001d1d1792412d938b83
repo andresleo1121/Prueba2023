@@ -1,0 +1,22 @@
+@RunAll
+Feature: Buy in SWAGLABS
+
+    
+ @Buy
+ 	Scenario: Buy two products 
+ 		Given The user enters the swaglabs page
+ 		When the user enters name and password
+ 		Then Select two products
+ 		Then Select cart
+ 		Then Fill Out Form
+ 		Then Click Finish
+ 		And End
+ 		
+ 		
+	
+ 		
+ 		
+ 		
+ 		
+    
+    
